@@ -2,3 +2,8 @@
     display: flex;
     flex-wrap: wrap;
 }
+
+.home-dark {
+    background-color: black;
+    
+}
