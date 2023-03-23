@@ -8,7 +8,7 @@ import './Header.css'
 function Header() {
   //extract values from global context
   //NOTE user {} not []
-  const {userName, setUsername} = useContext(UserContext)
+  const {userName} = useContext(UserContext)
   console.log(userName)
   //extract theme values
   const {darkMode, setDarkMode} = useContext(ThemeContext)

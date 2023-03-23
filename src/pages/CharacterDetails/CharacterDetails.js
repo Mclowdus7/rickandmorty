@@ -22,12 +22,13 @@ function CharacterDetails() {
                 setCharacter(res.data)
             })
             .catch(err => console.log(err))
+            //eslint-disable-next-line
         }, []
     )
 
   return (
     <div className='details-container'>
-        <img src={character?.image} />
+        <img src={character?.image} alt={character?.name} />
         <div className='char-info'>
             <h3>{character?.name}</h3>
             <ul>

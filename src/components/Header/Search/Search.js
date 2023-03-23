@@ -6,11 +6,11 @@ function Search({setCharacters}) {
     //create state to hold search input
     const [searchValue, setSearchValue] = useState('')
 
-    const handleChange =(e)=>{
-          console.log(e)
-          //store the input value
-          setSearchValue(e.target.value)
-    }
+    // const handleChange =(e)=>{
+    //       console.log(e)
+    //       //store the input value
+    //       setSearchValue(e.target.value)
+    // }
 
 
     //https://rickandmortyapi.com/api/character/?name=rick

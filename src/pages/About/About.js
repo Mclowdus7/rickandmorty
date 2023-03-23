@@ -5,7 +5,7 @@ import { ThemeContext } from '../../contexts/ThemeContext'
 
 function About() {
 
-  const {darkMode, setDarkMode} = useContext(ThemeContext)
+  const {darkMode} = useContext(ThemeContext)
 
 
   return (
