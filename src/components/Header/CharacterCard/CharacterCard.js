@@ -5,7 +5,7 @@ import {Link} from 'react-router-dom'
 function CharacterCard({character}) {
   return (
     <div className='character-card'>
-      <img src={character.image} alt='character-pic' />
+      <img src={character.image} alt={character.name} />
       <p>{character.name}</p>
       <Link to={`/details/${character.id}`}>
       <button>See Details</button>

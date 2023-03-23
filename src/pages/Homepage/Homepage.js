@@ -25,7 +25,7 @@ function Homepage() {
     ) //end useEffect
     
     
-    const {darkMode, setDarkMode} = useContext(ThemeContext)
+    const {darkMode} = useContext(ThemeContext)
 
     
 
